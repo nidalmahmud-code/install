@@ -604,6 +604,9 @@ C:\\Windows\\System32\\drivers\\etc\\hosts (elevated editor):
     ${VM_IP}    ${PLATFORM_HOST}
 
 then open  https://${PLATFORM_HOST}
+
+Or reach it directly via  https://${VM_IP}
+
 The default certificate is self-signed, so expect a browser warning.
 
   export KUBECONFIG=\$HOME/.kube/config
